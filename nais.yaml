@@ -6,6 +6,6 @@ metadata:
   labels:
     team: aura
 spec:
-  image: ghcr.io/nais/hello-world
+  image: ghcr.io/nais/hello-world:1
   ingresses:
   - https://hello-world.dev.nav.no
