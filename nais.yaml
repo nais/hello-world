@@ -1,0 +1,11 @@
+apiVersion: "nais.io/v1alpha1"
+kind: "Application"
+metadata:
+  name: hello-world
+  namespace: aura
+  labels:
+    team: aura
+spec:
+  image: ghcr.io/nais/hello-world
+  ingresses:
+  - https://hello-world.dev.nav.no
